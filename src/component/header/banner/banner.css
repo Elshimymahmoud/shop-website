@@ -1,0 +1,24 @@
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 30px;
+    margin-top: 90px;
+}
+.banner-img{
+    width: 50%;
+    height: 500px;
+    padding: 0px 5px;
+}
+@media(maxwight:920){
+    .banner{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .banner-img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
